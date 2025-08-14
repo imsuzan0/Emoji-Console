@@ -1,6 +1,6 @@
 {
   "name": "@imsuzan0/log-emoji",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Colorful emoji-powered console logger for Node.js with multiple log types, colors, and custom logs",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imsuzan0/Emoji-Console.git"
+    "url": "https://github.com/imsuzan0/Log-Emoji.git"
   }
 }
