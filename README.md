@@ -17,7 +17,7 @@
 ## 📦 Installation
 
 ````bash
-npm install imsuzan0/log-emoji
+npm install @imsuzan0/log-emoji
 ````
 
 
