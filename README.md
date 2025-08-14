@@ -1,4 +1,4 @@
-# Emoji Console 🎉
+# Log Emoji 🎉
 
 **Logmoji** is a lightweight, zero-dependency Node.js logger that makes your console output **fun, colorful, and easy to read** using emojis + ANSI colors. Perfect for CLI tools, backend logs, or just making debugging less boring!
 
