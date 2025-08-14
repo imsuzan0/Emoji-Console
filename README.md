@@ -17,14 +17,14 @@
 ## 📦 Installation
 
 ````bash
-npm install logmoji
+npm install imsuzan0/log-emoji
 ````
 
 
 # 🚀 Usage
 
 ```javascript
-import { log } from "logmoji";
+import { log } from "@imsuzan0/log-emoji";
 
 // Predefined log types
 log.success("Server started successfully");
