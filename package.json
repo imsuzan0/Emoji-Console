@@ -1,5 +1,5 @@
 {
-  "name": "emoji-console",
+  "name": "log-emoji",
   "version": "1.0.0",
   "description": "Colorful emoji-powered console logger for Node.js with multiple log types, colors, and custom logs",
   "main": "index.js",
