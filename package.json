@@ -1,6 +1,6 @@
 {
   "name": "@imsuzan0/log-emoji",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Colorful emoji-powered console logger for Node.js with multiple log types, colors, and custom logs",
   "main": "index.js",
   "scripts": {
