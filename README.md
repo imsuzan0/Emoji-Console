@@ -18,6 +18,7 @@
 
 ````bash
 npm install logmoji
+````
 
 
 # 🚀 Usage
