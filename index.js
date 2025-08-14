@@ -56,10 +56,3 @@ export const log = {
   custom: (emoji, color, label, msg) =>
     console.log(`${colors[color] || colors.reset}${emoji} [${label.toUpperCase()}] ${timestamp()} - ${msg}${colors.reset}`)
 };
-
-
-log.success("Server started successfully");
-log.error("Database connection failed");
-log.warning("Low disk space");
-log.info("Listening on port 3000");
-log.debug("User is authenticated");
