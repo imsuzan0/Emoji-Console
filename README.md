@@ -55,8 +55,7 @@ log.custom("🔥", "brightRed", "ALERT", "Server CPU usage is high!");
 - **Bright Colors:** `brightBlack`, `brightRed`, `brightGreen`, `brightYellow`, `brightBlue`, `brightMagenta`, `brightCyan`, `brightWhite`
 
 # 💻 Example Output
-
-![alt text](image.png)
+![Screenshot](https://i.postimg.cc/tCCMTFrs/Screenshot-2025-08-14-144733.png)
 
 # 🔧 Custom Log
 
