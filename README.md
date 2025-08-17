@@ -6,11 +6,16 @@
 
 ## ✨ Features
 
-- 🎨 **20+ color options** (ANSI escape codes, no dependencies)
-- 🚀 **15+ predefined log types** (`success`, `error`, `warning`, `info`, `debug`, `start`, `stop`, `update`, `complete`, `loading`, `upload`, `download`, `connect`, `disconnect`, `search`, `save`, `delete`)
-- 🌟 **Custom log support** — choose your own emoji, color, and label
+- 🎨 **40+ color & style options** (basic, bright, and background ANSI colors, no dependencies)
+- 🚀 **30+ predefined log types**:  
+  - **Standard:** `success`, `error`, `warning`, `info`, `debug`  
+  - **Process:** `start`, `stop`, `complete`, `loading`, `update`, `pending`, `successAlt`  
+  - **File & Data:** `save`, `delete`, `upload`, `download`, `search`  
+  - **Network & System:** `connect`, `disconnect`, `retry`, `security`, `unlock`, `network`, `crash`
+- 🌟 **Custom log support** — choose your own emoji, color, label, and message
 - 🕒 Automatic timestamps for every log
-- ⚡ Tiny and dependency-free
+- ⚡ Tiny, dependency-free, and colorful
+
 
 ---
 
@@ -26,33 +31,49 @@ npm install @imsuzan0/log-emoji
 ```javascript
 import { log } from "@imsuzan0/log-emoji";
 
-// Predefined log types
+// Standard logs
 log.success("Server started successfully");
 log.error("Database connection failed");
 log.warning("Low disk space");
 log.info("Listening on port 3000");
 log.debug("User is authenticated");
+
+// Process logs
 log.start("Deployment initiated");
-log.update("Pulling latest changes");
+log.stop("Deployment halted");
 log.complete("Deployment successful");
 log.loading("Fetching data...");
-log.upload("Uploading file to server...");
-log.download("Downloading report...");
-log.connect("Connected to database");
-log.disconnect("Disconnected from server");
-log.search("Looking for config file...");
+log.update("Pulling latest changes");
+log.pending("Waiting for approval");
+log.successAlt("Task completed");
+
+// File & data logs
 log.save("Configuration saved");
 log.delete("Old logs removed");
+log.upload("Uploading file to server...");
+log.download("Downloading report...");
+log.search("Looking for config file...");
+
+// Network & system logs
+log.connect("Connected to database");
+log.disconnect("Disconnected from server");
+log.retry("Retrying request...");
+log.security("Security scan complete");
+log.unlock("User account unlocked");
+log.network("Network check passed");
+log.crash("Server crashed unexpectedly!");
 
 //💻 Custom logs
 log.custom("🌟", "brightMagenta", "HIGHLIGHT", "Special log message");
 log.custom("🔥", "brightRed", "ALERT", "Server CPU usage is high!");
 ````
 
-# 🖌️ Available Colors
+## 🖌️ Available Colors
 
 - **Basic Colors:** `black`, `red`, `green`, `yellow`, `blue`, `magenta`, `cyan`, `white`
 - **Bright Colors:** `brightBlack`, `brightRed`, `brightGreen`, `brightYellow`, `brightBlue`, `brightMagenta`, `brightCyan`, `brightWhite`
+- **Background Colors:** `bgRed`, `bgGreen`, `bgYellow`, `bgBlue`, `bgMagenta`, `bgCyan`, `bgWhite`
+
 
 # 💻 Example Output
 ![Screenshot](https://i.postimg.cc/tCCMTFrs/Screenshot-2025-08-14-144733.png)
